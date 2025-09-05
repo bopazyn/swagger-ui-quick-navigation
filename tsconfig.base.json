@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // Base Options
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "allowJs": false,
+    "erasableSyntaxOnly": true,
+
+    // Strictness
+    "strict": true
+  }
+}

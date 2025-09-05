@@ -1,0 +1,29 @@
+{
+  "name": "swagger-ui-quick-navigation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "analyse-dependencies": "vite build --mode dependencies",
+    "eslint": "eslint ./"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.39.8",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.62.0",
+    "react-router": "^7.8.0",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-swc": "^4.0.0",
+    "chrome-types": "^0.1.370",
+    "typescript": "^5.8.2",
+    "vite": "^7.1.1"
+  }
+}
